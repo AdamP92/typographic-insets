@@ -80,10 +80,43 @@ footer {
   color: #f2f2f2;
 }
 
-/*
- ##########################################################
- END DO NOT CHANGE ZONE
- ##########################################################
-*/
+figure {
+  float: right;
+  width: 300px;
+  padding: 6px 0;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  margin: .5rem;
+}
 
-/* Write your CSS here */
+figcaption {
+  text-align: left;
+  padding: 6px 0;
+}
+
+main > p:first-child::first-letter {
+  float: left;
+  font-size: 5rem;
+  color: #f2f2f2;
+  background-color: #666;
+  padding: .2em .2em;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  font-style: normal;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+  margin-top: .2rem;
+}
+
+blockquote {
+  float: left;
+  color: #666;
+  background-color: #fff;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: 6px 0;
+  margin: .5rem;
+  width: 400px;
+  font-size: 1.5rem;
+  text-align: right;
+}
